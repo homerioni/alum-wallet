@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1200px){
+	body .container{
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 991px){
+	.nav-menu{
+		margin: 30px 0 15px 0;
+	}
+	.rightBox-header{
+		margin-bottom: 15px;
+	}
+	.menu-div-text{
+		display: flex;
+		justify-content: space-around;
+	}
+	.offer-title{
+		margin-bottom: 25px;
+	}
+	.offer-text{
+		line-height: 18px;
+		margin-bottom: 3px;
+	}
+	.offer-left-box{
+		height: 320px;
+		margin-bottom: 40px;
+	}
+	.offer-price-box{
+		margin-left: 250px;
+	}
+	.description iframe{
+		height: 180px;
+	}
+}
+
+@media (max-width: 767px){
+	.nav-menu{
+		margin: 15px 0 15px 0;
+		text-align: center;
+	}
+	.nav-menu ul.menu li a{
+		font-size: 14px;
+	}
+	.rightBox-header .menu-div-text{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 66.666667%;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+	.rightBox-header .menu-div-article{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.offer-price-box{
+		margin-left: 150px;
+	}
+	.separator-top .container .row h2{
+		font-size: 20px;
+	}
+	.description iframe{
+		height: 280px;
+	}
+	.advantages-right{
+		display: none;
+	}
+	.item-reviews img{
+		width: 20%;
+		margin-top: 7px;
+	}
+	.item-reviews-name,
+	.item-reviews-text{
+		font-size: 14px;
+		margin: 0;
+	}
+	.footer-links a{
+		font-size: 18px;
+	}
+	.footer-text p{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 575px){
+	.container{
+		max-width: 450px;
+	}
+	.main-menu{
+		display: none;
+	}
+	.mob-menu,
+	.triger{
+		display: inherit;
+	}
+	.rightBox-header{
+		line-height: 20px;
+		margin: 15px 0;
+	}
+	.rightBox-header .menu-div-text{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.rightBox-header .menu-div-article{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 40%;
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+	.rightBox-header .triger{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 10%;
+		flex: 0 0 10%;
+		max-width: 10%;
+	}
+	.menu-div-text{
+		flex-direction: column;
+	}
+	.offer,
+	.description{
+		margin: 20px 0;
+	}
+	.offer-title{
+		font-size: 24px;
+	}
+	.offer-text{
+		font-size: 16px;
+	}
+	.offer-price-box{
+		margin-left: 110px;
+	}
+	.separator-top .container .row h2{
+		font-size: 16px;
+	}
+	.description iframe{
+		height: 230px;
+	}
+	.footer-links a{
+		font-size: 16px;
+		margin: 0 5px;
+	}
+	footer{
+		padding: 20px 0;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		max-width: 380px;
+	}
+	.menu-text,
+	.menu-article{
+		font-size: 12px;
+	}
+	.menu-number{
+		font-size: 18px;
+	}
+	.offer-title{
+		font-size: 20px;
+	}
+	.offer-text{
+		font-size: 14px;
+	}
+	.offer-left-box{
+		height: 230px;
+		margin-bottom: 20px;
+	}
+	.offer-price-box{
+		margin-left: 100px;
+		width: 110px;
+		height: 110px;
+	}
+	.offer-price-old{
+		padding-top: 27px;
+		font-size: 14px;
+	}
+	.offer-price-new{
+		font-size: 22px;
+	}
+	.offer-form-box{
+		width: 350px;
+	}
+	.offer-form-box h2{
+		font-size: 20px;
+	}
+	.offer-form input{
+		font-size: 15px;
+	}
+	.offer-form button{
+		font-size: 20px;
+	}
+	.description .container h2{
+		font-size: 24px;
+	}
+	.separator-bottom .container .row p{
+		font-size: 12px;
+	}
+	.advantages .container h2{
+		font-size: 26px;
+	}
+	.footer-links{
+		text-align: center;
+	}
+	.footer-links a{
+		display: inline-block;
+	}
+	.footer-text p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 400px){
+	.container{
+		max-width: 300px;
+	}
+	.menu-div-article{
+		text-align: right;
+	}
+	.offer-title{
+		font-size: 16px;
+	}
+	.offer-text{
+		font-size: 12px;
+	}
+	.offer-left-box{
+		height: 200px;
+	}
+	.offer-price-box{
+		margin-left: 70px;
+	}
+	.offer-form-box{
+		width: 100%;
+		height: 380px;
+	}
+	.item-offer-time{
+		width: 50px;
+		height: 50px;
+	}
+	.countdown-time{
+		padding: 2px 11px;
+		font-size: 26px;
+	}
+	.countdown-text{
+		font-size: 12px;
+	}
+	.days+span,
+	.hours+span{
+		margin: -15px 0 0 12px;
+	}
+	.minutes+span{
+		margin: -15px 0 0 9px;
+	}
+	.seconds+span{
+		margin: -15px 0 0 6px;
+	}
+	.description iframe{
+		height: 150px;
+	}
+	.description p{
+		font-size: 13px;
+	}
+	.advantages .container h2{
+		font-size: 22px;
+	}
+	.advantages-list li{
+		font-size: 13px;
+	}
+	.item-reviews img{
+		width: 35%;
+		margin-right: 10px;
+	}
+	.reviews .container .row h2{
+		text-align: center;
+		font-size: 24px;
+	}
+	.footer-text:last-child{
+		line-height: 15px;
+	}
+	.footer-text p{
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 330px){
+	.container{
+		max-width: 280px;
+	}
+	.menu-number{
+		font-size: 16px;
+	}
+	.offer-price-box{
+		margin-left: 60px;
+	}
+	.separator-top .container .row h2{
+		font-size: 12px;
+	}
+	.advantages-list li{
+		padding-left: 10px;
+	}
+}
